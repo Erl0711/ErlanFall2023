@@ -1,2 +1,4 @@
-package com.practice;public class MyFirstClass {
+package com.practice;
+
+public class MyFirstClass {
 }
