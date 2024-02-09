@@ -9,13 +9,14 @@ public class JavaFaker {
     static Faker faker = new Faker();
 
     public static Employee createNewEmployeeWithFakeData(){
-        Employee employee = new Employee();
-        employee.setFirstName(faker.name().firstName());
-        employee.setLastName(faker.name().lastName());
-        employee.setEmail(faker.internet().emailAddress());
-        employee.setAge(faker.number().randomDigit());
-        employee.setSalary(faker.number().randomDigit());
-        employee.setDepartment(faker.commerce().department());
-        return employee;
+        return Employee.builder()
+                .firstName(faker.name().firstName())
+                .lastName(faker.name().lastName())
+                .age(faker.number().randomDigit())
+                .email(faker.internet().emailAddress())
+                .salary(faker.number().randomDigit())
+                .department(faker.commerce().department())
+                .build();
     }
+
 }

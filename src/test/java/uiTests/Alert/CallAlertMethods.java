@@ -86,7 +86,7 @@ public class CallAlertMethods {
         WebElement promtButton = driver.findElement(By.id("promtButton"));
         promtButton.click();
         AlertHelper alertHelper = new AlertHelper();
-        alertHelper.sendKeysAlert("sendKeysAlertTest");
+        alertHelper.sendKeysAlert("sendKeysAlrtTest");
         Thread.sleep(100000);
     }
 
