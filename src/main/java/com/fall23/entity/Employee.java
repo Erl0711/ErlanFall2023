@@ -17,6 +17,7 @@ import java.util.Objects;
 @Setter
 @EqualsAndHashCode
 @ToString
+@Builder
 public class Employee {
 
     private String firstName;

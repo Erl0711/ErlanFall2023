@@ -46,7 +46,6 @@ public class EmployeesTableTest {
             List<Employee> employeesFaker = getEmployeesFromTable(driver);
             employeesFaker.forEach(System.out::println);
 
-
             // TODO verify all employees
 
 
