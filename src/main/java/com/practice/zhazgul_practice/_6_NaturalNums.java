@@ -1,4 +1,4 @@
-package com.practice.zhazgul_practice;
+package com.iroda.practice.zhazgul_practice;
 
 import java.util.Scanner;
 

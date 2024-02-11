@@ -1,4 +1,4 @@
-package com.practice.GuliTest;
+package com.iroda.practice.GuliTest;
 
 public class Test2 {
    // есть 2 переменные A и B, поменять местами значения без использования 3 переменной...

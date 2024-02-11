@@ -1,4 +1,4 @@
-package com.practice.zhazgul_practice;
+package com.iroda.practice.zhazgul_practice;
 public class _7_Peremennye {
     public static void main(String[] args) {
         int a = 5;

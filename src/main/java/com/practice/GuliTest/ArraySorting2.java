@@ -1,4 +1,4 @@
-package com.practice.GuliTest;
+package com.iroda.practice.GuliTest;
 
 import java.util.Random;
 

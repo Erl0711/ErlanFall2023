@@ -1,4 +1,4 @@
-package com.practice.GuliTest;
+package com.iroda.practice.GuliTest;
 
 public class ArraySorting3 {
 //    Создайте программу, выводящую на экран все четырёхзначные числа
