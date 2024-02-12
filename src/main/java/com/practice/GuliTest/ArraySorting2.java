@@ -22,8 +22,8 @@ public class ArraySorting2 {
 
     public static void main(String[] args) {
         // Пример использования метода
-        int a = 11;
-        int b = 27;
+        int a = 30;
+        int b = 10;
         int randomNumber = generateRandomNumber(a, b);
         System.out.println("Случайное число из отрезка [" + a + "; " + b + "]: " + randomNumber);
     }

@@ -1,4 +1,6 @@
-package com.practice;
+package com.practice.askar;
+
+import com.practice.Car;
 
 import java.util.HashMap;
 import java.util.Map;
