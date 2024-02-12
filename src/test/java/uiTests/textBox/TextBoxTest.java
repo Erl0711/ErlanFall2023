@@ -51,6 +51,7 @@ public class TextBoxTest {
 
         System.out.println(textBoxPage.emailInput.getAttribute("placeholder"));
         System.out.println(textBoxPage.emailInput.getAttribute("placeholder"));
+
         Assert.assertEquals(textBoxPage.emailInput.getAttribute("class"),"mr-sm-2 form-control");
      }
     @Test

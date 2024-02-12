@@ -3,10 +3,8 @@ import com.fall23.ui.data.JavaFaker;
 import com.fall23.ui.drivers.Driver;
 import com.fall23.ui.pages.WebTablePage;
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import static com.fall23.entity.Employee.getEmployeesFromTable;
@@ -14,6 +12,7 @@ import static com.fall23.entity.Employee.getEmployeesFromTable;
 public class EmployeesTableTest {
 
     WebDriver driver = Driver.getDriver();
+
     @Test
     void test123() {
 
@@ -24,9 +23,7 @@ public class EmployeesTableTest {
         employees.forEach(System.out::println);
 
         //Преобразовываем мапим в интежер , stream--> открывает поток данных
-        int totalSalaryAmount = employees.stream()
-                .mapToInt(Employee::getSalary)
-                .sum();
+        int totalSalaryAmount = employees.stream().mapToInt(Employee::getSalary).sum();
 
         int total = 0;
         for (Employee employee : employees) {
@@ -37,18 +34,17 @@ public class EmployeesTableTest {
         System.out.println(total + " total");
     }
 
-        @Test
-        void createNewEmployeeWithFakeDataTest(){
-            driver.get("https://demoqa.com/webtables");
-            Employee randomEmployee = JavaFaker.createNewEmployeeWithFakeData();
-            WebTablePage webTablePage = new WebTablePage(driver);
-            webTablePage.fillUpTheForm(randomEmployee);
-            List<Employee> employeesFaker = getEmployeesFromTable(driver);
-            employeesFaker.forEach(System.out::println);
+    @Test
+    void createNewEmployeeWithFakeDataTest() {
+        driver.get("https://demoqa.com/webtables");
+        Employee randomEmployee = JavaFaker.createNewEmployeeWithFakeData();
+        WebTablePage webTablePage = new WebTablePage(driver);
+        webTablePage.fillUpTheForm(randomEmployee);
+        List<Employee> employeesFaker = getEmployeesFromTable(driver);
+        employeesFaker.forEach(System.out::println);
 
-            // TODO verify all employees
+        // TODO verify all employees
 
-
-        }
     }
+}
 

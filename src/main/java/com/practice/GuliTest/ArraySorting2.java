@@ -17,7 +17,7 @@ public class ArraySorting2 {
         Random random = new Random();
 
         // Генерируем случайное число из отрезка [a; b]
-        return random.nextInt(b - a + 5)+a;//выташи
+        return random.nextInt(b - a + 1)+a;//выташи
     }
 
     public static void main(String[] args) {
