@@ -1,7 +1,7 @@
 package com.practice;
 import java.util.Arrays;
 import java.util.Random;
-import static com.practice.ArraySort.arraysToSort;
+import static com.practice.zhazgul_practice.ArraySort.arraysToSort;
 
 public class ArrayRandom {
 
