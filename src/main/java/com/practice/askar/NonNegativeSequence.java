@@ -1,4 +1,4 @@
-package com.practice;
+package com.practice.askar;
 
 public class NonNegativeSequence {
     public static void main(String[] args) {

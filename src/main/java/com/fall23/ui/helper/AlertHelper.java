@@ -2,7 +2,6 @@ package com.fall23.ui.helper;
 
 import com.fall23.ui.drivers.Driver;
 import org.openqa.selenium.Alert;
-import org.openqa.selenium.DeviceRotation;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;

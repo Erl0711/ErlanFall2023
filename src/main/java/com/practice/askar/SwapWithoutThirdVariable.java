@@ -1,4 +1,4 @@
-package com.practice;
+package com.practice.askar;
 
 public class SwapWithoutThirdVariable {
     public static void main(String[] args) {
